@@ -4,6 +4,7 @@ pipeline {
     stage('Say Hello') {
       steps {
         echo 'What up!'
+        sh 'java -version'
       }
     }
   }
